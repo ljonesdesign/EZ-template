@@ -2,23 +2,22 @@ body {
   margin: 0;
   font-family: 'Nunito Sans', sans-serif;
   font-size: large;
-  background-color: tan; /* Background color of page. Optimal is to match +++ACTIVE+++ color on line 70  */
+  background-color: tan;  /* Background color of page. Optimal is to match color on line 66  */
   text-align: center;     /* Center all text on page  */
   }
 
-/* Centers any image with img class="center" */
-.center {
+.center {                 /* Centers any image with img class="center" */
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   }
 
- /* Makes image fit container and resize at various browser sizes   */
-img {
+                   
+img {                    /* Makes image fit container and resize at various browser sizes   */
   max-width: 100%;
   max-height: 100%;
-  display: block; /* removes extra space below image */
+  display: block;        /* removes extra space below image */
   }
    
 article {
@@ -28,8 +27,8 @@ article {
   border-radius: 5px;
   }
 
-/* Footer formatting. HTML page must have this below article: <footer> content... </footer>   */
-footer {
+
+footer {                 /* Footer formatting. HTML page must have this below article: <footer> content... </footer>   */ 
   margin: 3% 5% 5% 10%;
   background-color: #151515; 
   padding: 0% 0% 0% 3%;
@@ -58,12 +57,12 @@ ul.topnav li a {
   }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: tan;
-  }  /* Color of top navigation bar tab with mouse-over hover */
+  background-color: tan;      /* Color of top navigation bar tab with mouse-over hover */
+  }  
 
 ul.topnav li a.active {
   color: black;
-  background-color: tan; /* Color of your active tab on the navigation bar. Match or coordinate with body background color  */
+  background-color: tan;      /* Color of your active tab on the navigation bar. Match or coordinate with body background color on line 5  */
   }
 
 ul.topnav li.right {
