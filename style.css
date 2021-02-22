@@ -57,6 +57,7 @@ ul.topnav li a {
   }
 
 ul.topnav li a:hover:not(.active) {
+  color: black;
   background-color: wheat;      /* Color of tab on on top navigation bar with mouse-over hover */
   }  
 
