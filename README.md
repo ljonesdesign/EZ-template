@@ -113,7 +113,7 @@ The majority of the ```index.html``` file is a good template for creating your o
 11. Next, you will create an empty ```about.html``` page. 
 12. copy the code from your ```index.html``` page into your ```about.html``` page and save that page. 
 
-You now have an about page, but since it is an **exact copy** of your ```index.html``` page, it does not work properly. You need to make some changes to the page. 
+You now have an about page, but since it is an **exact copy** of your ```index.html``` page, it will not appear different if you click the link. You need to make some changes to the page so it looks like a new page.
 
 1. Edit the Title code. Where it says ```Home Page``` change that to ```About Page```.
 2. Edit the H1 tag so that is is not referencing the Home Page. Make it reference the about page in some way.
@@ -140,7 +140,7 @@ How it should look in the ```index.html``` page:
   ```  
 
 ### Continue if you wish, or move onto a better template
-Repeat this process for the other pages. You now know how to create pages in the old fashioned way that is was done in the early 2000s. We build tools now, but this is good practice to see how complicated it used to be. You can use this EZ template for your project, but it will be a lot more limiting for you that what you can accomplish with a more template with more features. 
+Repeat this process for the other pages. You now know how to create pages in the old fashioned way that is was done in the early 2000s. Modern websites use partials with build tools now, but this is good practice to see how complicated it used to be. You can use this EZ template for your project, but it will be a lot more limiting for you that what you can accomplish with a more template with more features. 
  
  ## Editing the CSS file
   
