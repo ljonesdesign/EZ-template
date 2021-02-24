@@ -3,7 +3,21 @@
 
 The working sample site at opal.ils.unc.edu has four pages: Link to [sample site](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html).
 
-The Links to the other three pages have been provided in the ```topnav``` code section, but you will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
+The Links to the other three pages have been provided in the ```topnav``` code section:
+```
+<!-- Start of Navigation code -->
+
+  <ul class="topnav">
+   <li><a class="active" href="index.html">Home</a></li>
+   <li><a href="about.html">About</a></li>
+   <li><a href="classes.html">Classes</a></li>
+   <li><a href="interests.html">Interests</a></li>
+  </ul>
+
+<!-- End of Navigation code -->
+```
+
+but you will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
 
 Here are the steps:
 
