@@ -1,7 +1,9 @@
 # EZ-template
 >This is a simple starter template for teaching html and css.
 
-The working sample site at opal.ils.unc.edu has four pages: Link to [sample site](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html).
+The [working sample site at opal.ils.unc.edu]((https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html)) has four pages. This template only contains the ```index.html``` page.
+
+You will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
 
 The Links to the other three pages have been provided in the ```topnav``` code section:
 ```
@@ -17,9 +19,7 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 <!-- End of Navigation code -->
 ```
 
-but you will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
-
-Here are the steps:
+## Here are the steps:
 
 1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. If you don't understand this, then just download the files to your computer.
 2. Unzip (mac) or extract (PC) the folder.
