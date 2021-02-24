@@ -24,7 +24,7 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 <!-- End of Navigation code -->
 ```
 
-## Here are the steps:
+## Here are the steps to build out the other pages:
 
 1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. If you don't understand this, then just download the files to your computer.
 2. Unzip (mac) or extract (PC) the folder.
@@ -60,5 +60,11 @@ How it should look in the ```index.html``` page:
    <li><a href="interests.html">Interests</a></li>
   </ul>
   ```  
+  
   You now know how to create pages in the old fashioned way that is was done in the early 2000s. We build tools now, but this is good practice to see how complicated it used to be. 
+ 
+ ## Editing the CSS file
+  
+  the CSS file has been commented for you so that you can start to change the colors or fonts for your new site. Just change them in the ```style.css``` file, and they will affect every page because when you duplicated all of your pages, you copied the link to the ```style.css``` page.
+ 
 
