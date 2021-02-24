@@ -33,7 +33,7 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 6. Edit the Title code. Where it says ```EZ Template Example``` Put in your first and last name.
 7. Edit the H1 tag as you wish
 8. Edit the first p tag as you wish
-9. Find and Change to a different Google font if you wish. (Or you can change it later, but you will have to make changes to all of your pages if you don't do it before you start the duplication process.
+9. Find and Change to a different Google font if you wish. *You can change it later, but you will have to make changes to all of your pages if you don't do it before you start the duplication process.*
 10. Save your ```index.html``` file. This is your home page. Do not name your home page home.html; keep it as ```index.html```; do not create a ```home.html``` page.
 11. Next, you will create an empty ```about.html``` page. 
 12. copy the code from your ```index.html``` page into your ```about.html``` page and save that page. 
