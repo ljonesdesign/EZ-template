@@ -11,6 +11,7 @@ The [working sample site at opal.ils.unc.edu](https://opal.ils.unc.edu/~lblakej/
 You will have to create the other three pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work properly.
 
 The Links to the other three pages have been provided in the ```topnav``` code section:
+
 ```
 <!-- Start of Navigation code -->
 
@@ -23,25 +24,90 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 
 <!-- End of Navigation code -->
 ```
->Notice that this has multiple levels. There is an ```<a></a>``` element nested inside an ```<li></li>``` and these are nested in a ```<ul></ul>``` element.
 
-## Here are the steps to build out the other pages:
+Notice by the lines and spacing below that this is logically and neatly sorted into multiple levels. There is an ```<a></a>``` element nested inside an ```<li></li>``` and these are nested in a ```<ul></ul>``` element:
 
-### Before doing the steps, get a feel for how the ```class="active"``` attribute operates.
-Go to the sample site and click all of the pages in the top menu bar. For each page, view the source and look specifically at the Navigation code for the page you are on. If you are on the classes.html page, you will see an ```active``` class next to the classes link. That is how the browser knows how to make each tab stand out. So the rule is this: if you are editing ```classes.html``` that page needs to have the active class. If you make mistakes your navigation will still work, but it will be wonky if you don't go back and fix your errors. 
+
+
+```
+<!-- Start of Navigation code -->
+
+<ul class="topnav">  
+                                               
+                                           | only this|
+                                           | is shown |
+                 | attr.  =  "page.html"   | to user  |
+   _______ <a __________________________ > __________________________
+   <li>  | <a    | href   =  "var1.html" > | Var 1    | </a>  </li>
+   <li>  | <a    | href   =  "var2.html" > | Var 2    | </a>  </li>
+   <li>  | <a    | href   =  "var3.html" > | Var 3    | </a>  </li>
+   <li>  | <a    | href   =  "var4.html" > | Var 4    | </a>  </li>
+
+</ul>
+
+<!-- End of Navigation code -->
+```
+Everything matters. This code would not work because of the ```-``` ```_``` and ```|``` characters, but it would work if they were removed because html disregards spaces.
+
+Let's get rid of the lines and spaces except for the spacing for the ```class="active"``` and try to grasp how the "you are here" logic works with css and navigation using the ```active``` class.
+
+*Var1 is active:*
+
+```
+   <li><a class="active" href="var1.html">Var 1</a></li> <!-- when viewing -->
+   <li><a                href="var2.html">Var 2</a></li>
+   <li><a                href="var3.html">Var 3</a></li>
+   <li><a                href="var4.html">Var 4</a></li>
+```
+
+*Var 2 is active:*
+
+```
+   <li><a                href="var1.html">Var 1</a></li>
+   <li><a class="active" href="var2.html">Var 2</a></li>  <!-- when viewing -->
+   <li><a                href="var3.html">Var 3</a></li>
+   <li><a                href="var4.html">Var 4</a></li>
+```
+
+*Var 3 is active:*
+
+```
+   <li><a                href="var1.html">Var 1</a></li>
+   <li><a                href="var2.html">Var 2</a></li>
+   <li><a class="active" href="var3.html">Var 3</a></li>  <!-- when viewing -->
+   <li><a                href="var4.html">Var 4</a></li>
+```
+ 
+ *Var 4 is active:*
+ 
+```
+   <li><a                href="var1.html">Var 1</a></li>
+   <li><a                href="var2.html">Var 2</a></li>
+   <li><a                href="var3.html">Var 3</a></li>
+   <li><a class="active" href="var4.html">Var 4</a></li>  <!-- when viewing -->
+```
+
+
+
+## Here are the steps to build out the other pages
+
+### Before doing the steps, get a feel for how the ```class="active"``` attribute operates in real time while moving around the site
+Go to the [sample site](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html) and click all of the pages in the top menu bar. For each page, view the source and look specifically at the Navigation code for the page you are on. If you are on the ```classes.html``` page, you will see an ```active``` class next to the classes link. That is how the browser knows how to make each tab stand out. So the rule is this: if you are editing ```classes.html``` that page needs to have the ```active``` class. If you make mistakes with the ```active``` class settings, your navigation will still work, but it will be wonky until you get the errors fixed.
 
 ### The ```index.html``` is your template in a template
-The majority of the ```index.html``` file is a good template for creating your other pages. So copy it as many times as you need pages. In this sample project you will need to copy the code into an ```about.html``` page a ```classes.html``` page and an ```interests.html``` page. You must name the files as all lowercase for it to match the code in the template. OPAL is strictly case sensitive on file names. Your local computer development environment will match ```about.html``` with ```About.html```, but OPAL will not.
+The majority of the ```index.html``` file is a good template for creating your other pages. So copy it as many times as you need pages. In this sample project you will need to copy the code into an ```about.html``` page a ```classes.html``` page and an ```interests.html``` page. You must name the files as **all lowercase** for it to match the provided **all lowercase** code in the template. 
+
+>OPAL is strictly case sensitive on file names. Your local computer development environment will match ```about.html``` with ```About.html```, but OPAL will not.
 
 ### Start working it out. It will start to make sense as you go along...
 
-1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. If you don't understand this, then just download the files to your computer.
+1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. *If you don't understand git, I will demo how to download the files to your computer. You don't need to understand git, but there a quite a few CS students that are familiar with git, so use it if you know what you are doing.*
 2. Unzip (mac) or extract (PC) the folder if you did not do the ```git clone``` option.
 3. Open the folder as a project in your text editor. *If you are using a text editor that does not allow you to open a project, then I assume you know how to work with the finder on your PC or Mac.*
 5. Open your ```index.html``` file
 6. Edit the Title code. Where it says ```EZ Template Example``` Put in your first and last name.
-7. Edit the H1 tag as you wish
-8. Edit the first p tag as you wish
+7. Edit the contents of the ```<h1> </h1>``` tag as you wish
+8. Edit the contents of the  ```<p> </p> ``` tag as you wish
 9. Find and Change to a different [Google font](https://fonts.google.com/) if you wish. *You can change it later, but you will have to make changes to all of your pages if you don't do it before you start the duplication process.*
 10. Save your ```index.html``` file. This is your home page. Do not name your home page home.html; keep it as ```index.html```; do not create a ```home.html``` page.
 11. Next, you will create an empty ```about.html``` page. 
@@ -78,6 +144,4 @@ Repeat this process for the other pages. You now know how to create pages in the
  
  ## Editing the CSS file
   
-The ```style.css``` file has helpful comments for you so that you will be able to change the colors and/or fonts for your new site. Just change them in the ```style.css``` file, and they will affect every page. That is because when you duplicated all of your pages, you copied the link to the ```style.css``` and the link to the google font that was in your ```index.html``` file. 
- 
-
+The ```style.css``` file has helpful comments for you so that you will be able to change the colors and/or fonts for your new site. Just change them in the ```style.css``` file, and they will affect every page. That is because when you duplicated all of your pages, you copied the link to the ```style.css``` and the link to the google font that was in your ```index.html``` file.
