@@ -1,3 +1,8 @@
+<!-- If you have downloaded this template from github, and 
+can see this in your editor, don't use it for step by step
+instructions. It is not formatted for reading in your text editor
+copy this link go to live page here: https://github.com/ljonesdesign/EZ-template -->
+
 # EZ-template
 >This is a simple starter template for teaching html and css.
 
