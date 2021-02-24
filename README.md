@@ -1,7 +1,7 @@
 # EZ-template
 >This is a simple starter template for teaching html and css.
 
-The working sample site at opal.ils.unc.edu has four pages. 
+The working sample site at opal.ils.unc.edu has four pages: Link to [sample site](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html).
 
 The Links to the other three pages have been provided in the ```topnav``` code section, but you will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
 
@@ -42,4 +42,4 @@ How it should look in the ```index.html``` page:
   </ul>
   ```  
   You now know how to create pages in the old fashioned way that is was done in the early 2000s. We build tools now, but this is good practice to see how complicated it used to be. 
-Link to [sample site](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html).
+
