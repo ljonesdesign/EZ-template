@@ -26,6 +26,8 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 
 ## Here are the steps to build out the other pages:
 
+Before doing the steps, get a feel for how the ```class="active"``` attribute operates. Go to the sample site and click all of the pages in the top menu bar. For each page, view the source and look specifically at the Navigation code for the page you are on. If you are on the classes.html page, you will see an ```active``` class next to the classes link. That is how the browser knows how to make each tab stand out. So the rule is this: if you are editing ```classes.html``` that page needs to have the active class. If you make mistakes your navigation will still work, but it will be wonky if you don't go back and fix your errors. 
+
 The majority of the ```index.html``` file is a good template for creating your other pages. So copy it as many times as you need pages. In this sample project you will need to copy the code into an ```about.html``` page a ```classes.html``` page and an ```interests.html``` page. You must name the files as all lowercase for it to match the code in the template. OPAL is strictly case sensitive on file names. Your local computer development environment will match ```about.html``` with ```About.html```, but OPAL will not.
 
 1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. If you don't understand this, then just download the files to your computer.
