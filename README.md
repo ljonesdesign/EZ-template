@@ -23,6 +23,7 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 
 <!-- End of Navigation code -->
 ```
+>Notice that this has multiple levels. There is an ```<a></a>``` element nested inside an ```<li></li>``` and these are nested in a ```<ul></ul>``` element.
 
 ## Here are the steps to build out the other pages:
 
