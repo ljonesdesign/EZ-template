@@ -1,7 +1,7 @@
 # EZ-template
 >This is a simple starter template for teaching html and css.
 
-The [working sample site at opal.ils.unc.edu](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html)) has four pages that serve as a goal for you. This template only contains the ```index.html``` page.
+The [working sample site at opal.ils.unc.edu](https://opal.ils.unc.edu/~lblakej/website-helps/09-EZ-template/index.html) has four pages that serve as a goal for you. This template only contains the ```index.html``` page.
 
 You will have to create the pages by duplicating the ```index.html``` page three times and make changes to the few lines of code that can't be duplicated. You will also need to edit ```class="active"``` for each link in the ```topnav``` section to make each work
 
