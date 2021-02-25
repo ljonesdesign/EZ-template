@@ -12,6 +12,8 @@ You will have to create the other three pages by duplicating the ```index.html``
 
 The Links to the other three pages have been provided in the ```topnav``` code section:
 
+## Topnav code "as is"
+
 ```
 <!-- Start of Navigation code -->
 
@@ -25,6 +27,7 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 <!-- End of Navigation code -->
 ```
 
+## Topnav code "aligned for analysis"
 Notice by the lines and spacing below that this is logically and neatly sorted into multiple levels. There is an ```<a></a>``` element nested inside an ```<li></li>``` and these are nested in a ```<ul></ul>``` element:
 
 ```
@@ -47,6 +50,8 @@ Notice by the lines and spacing below that this is logically and neatly sorted i
 ```
 Everything matters. This code would not work because of the ```-``` ```_``` and ```|``` characters, but it would work if they were removed because html disregards spaces.
 
+## Topnav code "minified"
+
 And it would also work if we removed all spaces crunching it onto one line:
 
 ```
@@ -55,6 +60,7 @@ And it would also work if we removed all spaces crunching it onto one line:
 
 This is called [minifying code](http://minifycode.com/) and it will help your code run faster. Many templates that you use will have code with spaces and code that has been minified. Minified code is very difficult to edit, so you would use the non-minified code for your 02.03 project.
 
+## Topnav code "focus on active class"
 
 Let's get rid of some of the lines and spaces (except for the spacing for the ```class="active"```) and try to grasp how the "*you are here*" logic works with css and navigation using the ```active``` class.
 
@@ -93,7 +99,6 @@ Let's get rid of some of the lines and spaces (except for the spacing for the ``
    <li><a                href="var3.html">Var 3</a></li>
    <li><a class="active" href="var4.html">Var 4</a></li>  <!-- when viewing -->
 ```
-
 
 
 ## Here are the steps to build out the other pages
