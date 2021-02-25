@@ -27,8 +27,6 @@ The Links to the other three pages have been provided in the ```topnav``` code s
 
 Notice by the lines and spacing below that this is logically and neatly sorted into multiple levels. There is an ```<a></a>``` element nested inside an ```<li></li>``` and these are nested in a ```<ul></ul>``` element:
 
-
-
 ```
 <!-- Start of Navigation code -->
 
@@ -48,6 +46,13 @@ Notice by the lines and spacing below that this is logically and neatly sorted i
 <!-- End of Navigation code -->
 ```
 Everything matters. This code would not work because of the ```-``` ```_``` and ```|``` characters, but it would work if they were removed because html disregards spaces.
+
+I would also work if we removed all spaces:
+
+```
+<ul class="topnav"><li><a class="active" href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="classes.html">Classes</a></li><li><a href="interests.html">Interests</a></li></ul>
+``
+
 
 Let's get rid of the lines and spaces except for the spacing for the ```class="active"``` and try to grasp how the "you are here" logic works with css and navigation using the ```active``` class.
 
