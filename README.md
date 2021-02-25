@@ -51,7 +51,7 @@ I would also work if we removed all spaces:
 
 ```
 <ul class="topnav"><li><a class="active" href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="classes.html">Classes</a></li><li><a href="interests.html">Interests</a></li></ul>
-``
+```
 
 
 Let's get rid of the lines and spaces except for the spacing for the ```class="active"``` and try to grasp how the "you are here" logic works with css and navigation using the ```active``` class.
