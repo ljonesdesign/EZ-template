@@ -47,14 +47,16 @@ Notice by the lines and spacing below that this is logically and neatly sorted i
 ```
 Everything matters. This code would not work because of the ```-``` ```_``` and ```|``` characters, but it would work if they were removed because html disregards spaces.
 
-I would also work if we removed all spaces:
+And it would also work if we removed all spaces crunching it onto one line:
 
 ```
 <ul class="topnav"><li><a class="active" href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="classes.html">Classes</a></li><li><a href="interests.html">Interests</a></li></ul>
 ```
 
+This is called [minifying code](http://minifycode.com/) and it will help your code run faster. Many templates that you use will have code with spaces and code that has been minified. Minified code is very difficult to edit, so you would use the non-minified code for your 02.03 project.
 
-Let's get rid of the lines and spaces except for the spacing for the ```class="active"``` and try to grasp how the "you are here" logic works with css and navigation using the ```active``` class.
+
+Let's get rid of some of the lines and spaces (except for the spacing for the ```class="active"```) and try to grasp how the "*you are here*" logic works with css and navigation using the ```active``` class.
 
 *Var1 is active:*
 
