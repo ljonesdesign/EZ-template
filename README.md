@@ -152,7 +152,7 @@ How it should look in the ```index.html``` page:
   ```  
 
 ### Continue if you wish, or move onto a better template
-Repeat this process for the other pages. You now know how to create pages in the old fashioned way that is was done in the early 2000s. Modern websites use partials with build tools now, but this is good practice to see how complicated it used to be. You can use this EZ template for your project, but it will be a lot more limiting for you that what you can accomplish with a more template with more features. 
+Repeat this process for the other pages. You now know how to create pages in the old fashioned way that was done in the early 2000s. Modern websites use partials with build tools now, but this is good practice to see how complicated it used to be. You can use this EZ template for your project, but it will be a lot more limiting for you than what you can accomplish with a template with more features. 
  
  ## Editing the CSS file
   
