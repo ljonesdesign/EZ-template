@@ -58,7 +58,7 @@ And it would also work if we removed all spaces crunching it onto one line:
 <ul class="topnav"><li><a class="active" href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="classes.html">Classes</a></li><li><a href="interests.html">Interests</a></li></ul>
 ```
 
-This is called [minifying code](http://minifycode.com/) and it will help your code run faster. Many templates that you use will have code with spaces and code that has been minified. Minified code is very difficult to edit, so you would use the non-minified code for your 02.03 project.
+This is called **minifying** code and it will help your code run faster. Many templates that you use will have code with spaces and code that has been minified. Minified code is very difficult to edit, so you would use the non-minified code for your 02.03 project. [Beautifying](http://minifycode.com/html-beautifier/) code is the process of reversing the process of [minfying](http://minifycode.com/html-minifier/) code.
 
 ## Topnav code "focus on active class"
 
