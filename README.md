@@ -113,10 +113,10 @@ The majority of the ```index.html``` file is a good template for creating your o
 
 ### Start working it out. It will start to make sense as you go along...
 
-1. If you understand git and have setup your computer to work with git, you can ```git clone``` the files. *If you don't understand git, I will demo how to download the files to your computer. You don't need to understand git, but there a quite a few CS students that are familiar with git, so use it if you know what you are doing.*
-2. Unzip (mac) or extract (PC) the folder if you did not do the ```git clone``` option.
-3. Open the folder as a project in your text editor. *If you are using a text editor that does not allow you to open a project, then I assume you know how to work with the finder on your PC or Mac.*
-5. Open your ```index.html``` file
+1. Download and Unzip (mac) or extract (PC) the folder.
+2. Open the folder as a project in your text editor. *If you are using a text editor that does not allow you to open a project, then I assume you know how to work with the finder on your PC or Mac.*
+3. Open your ```index.html``` file
+5. Connect the page to your style.css page. Remove the comment and replace it with the following:```<link rel="stylesheet" href="style.css">```
 6. Edit the Title code. Where it says ```EZ Template Example``` Put in your first and last name.
 7. Edit the contents of the ```<h1> </h1>``` tag as you wish
 8. Edit the contents of the  ```<p> </p> ``` tag as you wish
